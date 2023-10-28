@@ -2,7 +2,7 @@
 
 from celery import Celery
 
-app = Celery('myapp', broker='tcp://172.20.10.10:6379/0')
+app = Celery('myapp', broker='redis://172.20.10.10:6379/0')
 
 @app.task
 def my_task(task_input):
