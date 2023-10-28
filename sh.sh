@@ -1,1 +1,1 @@
-celery -A celeryconfig worker --loglevel=info
+python3 -m celery -A tasks worker --loglevel=info
