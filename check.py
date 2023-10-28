@@ -15,7 +15,7 @@ def can_start_tcp_server(host, port):
         return False
 
 
-host_to_check = '10.66.106.228'
+host_to_check = '172.20.10.10'
 port_to_check = 8080  
 if can_start_tcp_server(host_to_check, port_to_check):
     print(f"TCP server can be started on {host_to_check}:{port_to_check}")
