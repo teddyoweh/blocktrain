@@ -2,8 +2,8 @@ import socket
 import os
 import time
 
-SERVER_HOST = '10.66.106.228'
-SERVER_PORT = 12345
+SERVER_HOST = '10.42.129.122'
+SERVER_PORT = 12346
 
 def main():
     while True:
@@ -21,12 +21,14 @@ def main():
             print(f"Connected to {SERVER_HOST}:{SERVER_PORT} as {client_info}")
 
             
-            client_socket.close()
+          
 
             
             time.sleep(5555560)  
+            client_socket.close()
 
         except Exception as e:
+            
             print(f"Error: {str(e)}")
 
 if __name__ == "__main__":
