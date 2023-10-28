@@ -7,7 +7,7 @@ SERVER_PORT = 12345
 
 def main():
     while True:
-        try:
+ 
             
             client_info = socket.gethostname()  
 
@@ -22,11 +22,8 @@ def main():
             client_socket.close()
 
             
-            time.sleep(60)  
+   
 
-        except KeyboardInterrupt:
-            
-            break
-
+     
 if __name__ == "__main__":
     main()
