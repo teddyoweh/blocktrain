@@ -23,7 +23,7 @@ def main():
 
         
         with open(HOSTS_FILE, 'a') as hosts_file:
-            hosts_file.write(client_info + '\n')
+            hosts_file.write(client_address[0] + '\n')
 
         print(f"Updated {HOSTS_FILE} with {client_info}")
 
