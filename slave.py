@@ -1,3 +1,3 @@
 from blocktrain import slave
 
-slave("10.66.106.228",55877)
+slave("172.20.10.6",55877)
