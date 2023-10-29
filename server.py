@@ -2,7 +2,7 @@ from blocktrain import blocktrain
 import asyncio
  
 scheduler_manager = blocktrain(role="scheduler")
-asyncio.run(scheduler_manager.start(host="172.20.10.6",port=55877))
+asyncio.run(scheduler_manager.start(host="10.66.133.208",port=55877))
 
  
 
